@@ -1,0 +1,56 @@
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+}
+.contenu {
+    min-height: 73vh;
+    padding-bottom: 20px;
+}
+header
+{
+    display : flex;
+    margin-bottom:20px;
+    padding: 4px;
+}
+.topIcon {
+    display: inline;
+    float: left;
+}
+.compagnie{
+    color : #EF0A0A;
+}
+.slogan{
+    font-family: "Comfortaa-Regular" , serif;
+    width : 100%;
+    font-size: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.topMenu {
+    display:flex;
+    align-items:center;
+    margin-left:auto;
+    width : 360px;
+    min-width : 120px;
+}
+.menuItem {
+    vertical-align: middle;
+    width : 25%;
+    display : table-cell;
+    text-align:center;
+    transform: translateY(5%);
+}
+.caption {
+    font-family: "Comfortaa-Regular", serif;
+    display : block;
+    font-weight:bold;
+    color:#EF0A0A;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.topIcon a{
+    text-decoration: none;
+}

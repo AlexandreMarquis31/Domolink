@@ -1,0 +1,98 @@
+.Section h2, .Section h3
+{
+    position: center ;
+}
+
+.Section
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    font-family: "Comfortaa-Bold", serif;
+    color : white;
+}
+
+.Section1
+{
+    grid-column: 1;
+    grid-row: 1;
+    background: #AD031A;
+    border: 1px solid #AD031A;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.sousection1
+{
+    position: absolute;
+    top :50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.Section2
+{
+    grid-column: 2;
+    grid-row: 1;
+    background: #AD031A;
+    border: 1px solid #AD031A;
+    text-align: center ;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.cgu
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.oubli{
+    color: white;
+}
+
+.grille
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-top: 5%;
+}
+
+.location
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.web
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+.a_propos
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.champ{
+    height : 5%;
+    width:40%;
+}
+
+
+.conButton{
+    height:40px;
+    background-color: white;
+    color : #AD031A;
+    width : 20%;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+
+.conButton:hover{
+    background-color: lightgray;
+}

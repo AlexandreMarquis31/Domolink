@@ -1,0 +1,34 @@
+section { /* le quadrillage externe */
+    border: 3px solid #D52C42; /* Bordure du tableau double et bleue */
+    margin: auto; /* Centrer horizontalement le tableau */
+    border-radius: 20px;
+}
+h1 {
+    font-family: "Comfortaa-Regular", serif;
+    color: #D52C42;
+    text-align: center;
+}
+table {
+    margin: auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+th { /* Les cellules d'en-têtes */
+    border: 2px solid #D52C42;
+    color: white;
+    font-size: 1.2em;
+    font-face: "Comfortaa-Bold";
+    background-color: #D52C42;
+}
+td { /* Les cellules normales */
+    border: 2px solid #D52C42;
+    font-family: "Comfortaa-Regular";
+    font-size: 0.95em;
+    background-color: #FEE8EE;
+    padding: 8px;
+    /* Remplissage de 8 pixels pour éviter que le texte touche les bordures */
+    vertical-align: middle;
+    /* Centrer le contenu des cellules verticalement */
+    text-align: center;
+    /* Centrer le contenu des cellules horizontalement */
+}

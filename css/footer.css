@@ -1,0 +1,55 @@
+footer {
+    height:17vh;
+    border-top: 1px solid #D52C42;
+    color: #D52C42;
+    width: calc(100% - 8px);
+    position: absolute;
+    left: 0;
+    padding: 4px;
+    font-size: 1.2vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    background-color: rgba(213, 49, 79, 0.14);
+}
+
+footer h3 {
+    font-family: "Comfortaa-Bold", serif;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-size: 1.5vw;
+}
+
+.footer_description {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.footer_description a {
+    color: #D52C42;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_reseaux {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer_reseaux a {
+    color:#0063e3;
+    text-decoration: none;
+}
+
+.footer_reseaux img {
+    vertical-align: middle;
+}
+
+.footer_location {
+    grid-column: 1;
+    grid-row: 1;
+}
+#linkMail {
+    color :#0063e3;
+}

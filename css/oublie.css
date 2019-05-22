@@ -1,0 +1,28 @@
+h2
+{
+    color : white;
+    position: center ;
+}
+
+.section
+{
+    color : white;
+}
+
+.sousection
+{
+    top :10%;
+    background: #AD031A;
+    border: 1px solid #AD031A;
+    text-align: center;
+    position: relative;
+    height: 60%;
+}
+
+.text
+{
+    position: absolute;
+    top :10%;
+    position :center;
+    width: 100%;
+}

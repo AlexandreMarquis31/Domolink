@@ -1,0 +1,57 @@
+input[type="text"], input[type="password"],input[type="date"] {
+    margin-bottom: 4%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.title2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.accountWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, calc(25% - 15px));
+    grid-gap: 15px;
+}
+
+.menu {
+    grid-column: 1;
+    margin-left: 5%;
+    grid-row: 1;
+}
+
+.leftWrapper {
+    grid-column: 2;
+}
+
+.midWrapper {
+    grid-column: 3;
+}
+
+.rightWrapper {
+    grid-column: 4;
+    color: red;
+    height: 80%;
+}
+#accountDelete {
+    width:50%;
+    margin-left:25%;
+}
+#infoSubmit{
+    width:50%;
+    margin-left:25%;
+}
+#mdpChange{
+    width:50%;
+    margin-left:25%
+}
+#labelDeleteAcc{
+   color:#EF0A0A;
+}
+#labelEnterMail{
+    width:100%;
+    text-align:center;
+    color:#EF0A0A;
+}

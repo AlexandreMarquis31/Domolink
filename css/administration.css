@@ -1,0 +1,94 @@
+.adminWrapper input[type="text"] {
+    display: inline-block;
+    width: 60%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.champ {
+    width: 100%;
+    margin-left: 10%;
+    display: inline;
+}
+
+.adminWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 15px));
+    grid-gap: 15px;
+}
+
+.champs {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image {
+    grid-row: 1;
+    grid-column: 2;
+    width: 100%;
+}
+
+.legalColumn textarea {
+    padding: 5px;
+    resize: none;
+    min-height: 300px;
+}
+
+.legalColumn h1 {
+    text-align: center;
+    font-size: 2vw;
+    color: #0063e3;
+}
+
+#customScroll {
+    font-family: "Comfortaa", serif;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    height: 60%;
+    width: 95%;
+    font-size: 12px;
+    margin-left: 2.5%;
+}
+
+.legalColumn {
+    display: inline-block;
+    width:49vw;
+    padding: 0.4vw;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#labelLogo {
+    display: inline;
+}
+
+#inpuLogo {
+    width: 45%;
+}
+
+#erreurText {
+    width: 35%;
+    color: red;
+}
+
+.adminButton{
+    width:20%;
+    margin-left:40%;
+    margin-top: 1%;
+}
+#customScroll{
+    padding: 5px;
+    resize: none;
+    min-height: 300px;
+    margin-left:0px !important;
+}
